@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router'
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
+import { EmpDashboradComponent } from './Newchanges/emp-dashborad/emp-dashborad.component';
 import { ProjectEnquiryComponent } from './project-enquiry/project-enquiry.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { SinghComponent } from './singh/singh.component';
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:"employee-list",component:EmployeeListComponent},
   {path:"add-employee",component:AddEmployeeComponent},
   {path:"singh",component:SinghComponent}
+  {path:"emp-dashborad",component:EmpDashboradComponent}
 ];
 
 @NgModule({
