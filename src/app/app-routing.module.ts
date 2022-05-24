@@ -4,12 +4,14 @@ import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { ProjectEnquiryComponent } from './project-enquiry/project-enquiry.component';
 import { ProjectListComponent } from './project-list/project-list.component';
+import { FeaturesComponent } from './features/features.component';
 
 const routes: Routes = [
   {path:"projects",component:ProjectListComponent},
   {path:"project-enquiry",component:ProjectEnquiryComponent},
   {path:"employee-list",component:EmployeeListComponent},
-  {path:"add-employee",component:AddEmployeeComponent}
+  {path:"add-employee",component:AddEmployeeComponent},
+  {path:"features",Component:FeaturesComponent}
 ];
 
 @NgModule({
