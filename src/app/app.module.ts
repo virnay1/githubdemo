@@ -15,6 +15,8 @@ import { EmployeeService } from './employee.service';
 import { BoldPipe } from './bold.pipe';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { FeaturesComponent } from './features/features.component';
+import { SinghComponent } from './singh/singh.component';
+import { EmpDashboradComponent } from './Newchanges/emp-dashborad/emp-dashborad.component';
 
 @NgModule({
   declarations: [
@@ -26,8 +28,10 @@ import { FeaturesComponent } from './features/features.component';
     EmployeeListComponent,
     BoldPipe,
     AddEmployeeComponent,
-    FeaturesComponent
-  ],
+    FeaturesComponent,
+    SinghComponent,
+    EmpDashboradComponent
+],
   imports: [
     BrowserModule,
     AppRoutingModule,
