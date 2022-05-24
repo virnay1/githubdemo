@@ -7,15 +7,17 @@ import { ProjectEnquiryComponent } from './project-enquiry/project-enquiry.compo
 import { ProjectListComponent } from './project-list/project-list.component';
 import { FeaturesComponent } from './features/features.component';
 import { SinghComponent } from './singh/singh.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {path:"projects",component:ProjectListComponent},
   {path:"project-enquiry",component:ProjectEnquiryComponent},
   {path:"employee-list",component:EmployeeListComponent},
   {path:"add-employee",component:AddEmployeeComponent},
-  {path:"features",Component:FeaturesComponent}
-  {path:"singh",component:SinghComponent}
-  {path:"emp-dashborad",component:EmpDashboradComponent}
+  {path:"features",Component:FeaturesComponent},
+  {path:"singh",component:SinghComponent},
+  {path:"emp-dashborad",component:EmpDashboradComponent},
+  {path:"Home",component:HomeComponent}
 ];
 
 @NgModule({

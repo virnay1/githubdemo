@@ -17,6 +17,7 @@ import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { FeaturesComponent } from './features/features.component';
 import { SinghComponent } from './singh/singh.component';
 import { EmpDashboradComponent } from './Newchanges/emp-dashborad/emp-dashborad.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { EmpDashboradComponent } from './Newchanges/emp-dashborad/emp-dashborad.
     AddEmployeeComponent,
     FeaturesComponent,
     SinghComponent,
-    EmpDashboradComponent
+    EmpDashboradComponent,
+    HomeComponent
 ],
   imports: [
     BrowserModule,
