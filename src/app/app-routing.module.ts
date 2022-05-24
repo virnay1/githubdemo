@@ -17,7 +17,7 @@ const routes: Routes = [
   {path:"features",Component:FeaturesComponent},
   {path:"singh",component:SinghComponent},
   {path:"emp-dashborad",component:EmpDashboradComponent},
-  {path:"Home",component:HomeComponent}
+  {path:"home",component:HomeComponent}
 ];
 
 @NgModule({
