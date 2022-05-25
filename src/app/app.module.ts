@@ -18,6 +18,7 @@ import { FeaturesComponent } from './features/features.component';
 import { SinghComponent } from './singh/singh.component';
 import { EmpDashboradComponent } from './Newchanges/emp-dashborad/emp-dashborad.component';
 import { HomeComponent } from './home/home.component';
+import { GithubComponent } from './github/github.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { HomeComponent } from './home/home.component';
     FeaturesComponent,
     SinghComponent,
     EmpDashboradComponent,
-    HomeComponent
+    HomeComponent,
+    GithubComponent
 ],
   imports: [
     BrowserModule,

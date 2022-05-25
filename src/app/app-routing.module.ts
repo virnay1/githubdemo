@@ -8,6 +8,7 @@ import { ProjectListComponent } from './project-list/project-list.component';
 import { FeaturesComponent } from './features/features.component';
 import { SinghComponent } from './singh/singh.component';
 import { HomeComponent } from './home/home.component';
+import { GithubComponent } from './github/github.component';
 
 const routes: Routes = [
   {path:"projects",component:ProjectListComponent},
